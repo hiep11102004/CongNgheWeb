@@ -1,0 +1,81 @@
+
+/* Reset đơn giản và font */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #222;
+    background: #fff;
+    padding: 18px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+h2 {
+    font-size: 18px;
+    margin: 18px 0 10px 0;
+}
+
+div {
+    margin-bottom: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 16px;
+    background: #fff;
+}
+th, td {
+    border: 1px solid #bbb;
+    padding: 7px 10px;
+    text-align: left;
+}
+th {
+    background: #f3f3f3;
+}
+tr:nth-child(even) {
+    background: #fafafa;
+}
+
+ul {
+    margin-left: 18px;
+    margin-bottom: 16px;
+}
+li {
+    margin-bottom: 14px;
+}
+
+input[type="text"], textarea {
+    padding: 5px 8px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+button, input[type="submit"] {
+    padding: 6px 16px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    background: #f3f3f3;
+    cursor: pointer;
+    font-size: 15px;
+}
+button:hover, input[type="submit"]:hover {
+    background: #e0e0e0;
+}
+
+img {
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    margin: 4px 0;
+    max-width: 100%;
+    height: auto;
+}
