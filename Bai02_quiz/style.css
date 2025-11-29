@@ -1,0 +1,30 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+    margin: 0;
+    padding: 24px;
+}
+
+h2 {
+    margin-bottom: 18px;
+    font-size: 22px;
+}
+
+form {
+    margin-bottom: 0;
+}
+
+button[type="submit"] {
+    padding: 7px 18px;
+    font-size: 15px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    background: #e0e0e0;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: #d0d0d0;
+}
